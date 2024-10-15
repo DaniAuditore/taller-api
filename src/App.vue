@@ -1,14 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PrincipalMenu/>
 </template>
 
 <script>
 
+import PrincipalMenu from './components/PrincipalMenu.vue';
+
 export default {
   name: 'App',
   components: {
-    
+    PrincipalMenu
   }
 }
 </script>
